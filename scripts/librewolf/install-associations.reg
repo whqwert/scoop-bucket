@@ -1,0 +1,38 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\LibreWolf\Capabilities]
+"ApplicationDescription"="LibreWolf"
+"ApplicationIcon"="$dir\\librewolf.exe,0"
+"ApplicationName"="LibreWolf"
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\LibreWolf\Capabilities\FileAssociations]
+".htm"="LibreWolfHTM"
+".html"="LibreWolfHTM"
+".pdf"="LibreWolfHTM"
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\LibreWolf\Capabilities\Startmenu]
+"StartMenuInternet"=LibreWolf
+
+[HKEY_CURRENT_USER\Software\Clients\StartMenuInternet\LibreWolf\Capabilities\URLAssociations]
+"http"="LibreWolfHTM"
+"https"="LibreWolfHTM"
+
+[HKEY_CURRENT_USER\Software\RegisteredApplications]
+"LibreWolf"="Software\\Clients\\StartMenuInternet\\LibreWolf\\Capabilities"
+
+[HKEY_CURRENT_USER\Software\Classes\LibreWolfHTM]
+@="LibreWolf Handler"
+"AppUserModelId"="LibreWolf"
+
+[HKEY_CURRENT_USER\Software\Classes\LibreWolfHTM\Application]
+"AppUserModelId"="LibreWolf"
+"ApplicationIcon"="$dir\\librewolf.exe,0"
+"ApplicationName"="LibreWolf"
+"ApplicationDescription"="Start the LibreWolf Browser"
+"ApplicationCompany"="LibreWolf Community"
+
+[HKEY_CURRENT_USER\Software\Classes\LibreWolfHTM\DefaultIcon]
+@="$dir\\librewolf.exe,0"
+
+[HKEY_CURRENT_USER\Software\Classes\LibreWolfHTM\shell\open\command]
+@="\"$dir\\librewolf.exe\" -profile \"$dir\\Profiles\\Default\" -osint -url \"%1\""

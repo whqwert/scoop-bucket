@@ -35,4 +35,4 @@ Windows Registry Editor Version 5.00
 @="$dir\\librewolf.exe,0"
 
 [HKEY_CURRENT_USER\Software\Classes\LibreWolfHTM\shell\open\command]
-@="\"$dir\\librewolf.exe\" -profile \"$dir\\Profiles\\Default\" -osint -url \"%1\""
+@="\"$dir\\librewolf.exe\" -profile \"$dir\\Profiles\\Default\" -url \"%1\""

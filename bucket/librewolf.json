@@ -74,6 +74,6 @@
         "hash": {
             "url": "$url.sha256sum"
         },
-        "extract_dir": "librewolf-$version/LibreWolf"
+        "extract_dir": "librewolf-$version\\LibreWolf"
     }
 }
